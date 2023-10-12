@@ -1,0 +1,95 @@
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html{
+  font-size:10px;
+
+}
+.navbar{
+  display:  flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: w;
+color: green;
+padding: 0.5rem 10rem;
+height: 5rem;
+}
+.navbar i{
+  font-size :2.5rem;
+  color :rgb(99, 100, 102);
+}
+.quoraHeading{
+  font-size: 3rem;
+  color:rgb(185, 43, 39);
+}
+.searchBox{
+  border: 0.1rem solid rgb(222, 224, 225);
+  display:flex;
+  /* justify-content:center; */
+  align-items: center;
+  height: 4rem;
+  border-radius:0.3rem ;
+  width: 30rem;
+  
+}
+.searchInput {
+  outline: none;
+border: none;
+width:100%;
+}
+.searchBox >i{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.PremiumBtn {
+  border: 0.1rem solid rgb(222, 224, 225);
+  border-radius: 2rem;
+  /* padding: 0.7rem; */
+  background-color: white;
+  height: 3rem;
+  width: 10rem;
+  color: #636466;
+  font-weight: bold;
+}
+.ProfileIcon {
+}
+.ProfileIcon img {
+  border-radius: 2rem;
+width: 3rem;
+height: 3rem;
+}
+.addQuestionContainer{
+  display: flex;
+  border-radius:3rem ;
+  /* justify-content: ; */
+  height: 3rem;
+  width: 14rem;
+  background-color: aqua;
+}
+.addQuestionContainer .addBtn{
+  /* padding: 2rem; */
+  color: white;
+  outline:none;
+  border: none;
+  border-radius: 3rem 0rem 0rem 3rem;
+  background-color: rgb(185, 43, 39);
+  height: 3rem;
+  width: 80%;
+  
+}
+.addQuestionContainer .menuBtn{
+  height: 3rem;
+  border-radius: 0rem 3rem 3rem 0rem;
+  background-color: rgb(185, 43, 39);
+  width: 20%;
+  border: none;
+}
+.addQuestionContainer .menuBtn >i{
+  color: white ;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
