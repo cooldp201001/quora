@@ -1,50 +1,70 @@
-
-
-*{
+* {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
-html{
-  font-size:10px;
+
+html {
+  font-size: 10px;
 
 }
-.navbar{
-  display:  flex;
-  justify-content: space-evenly;
+body{
+  background-color:#ffffff ;
+}
+/* navar css */
+.navbar {
+  display: flex;
+  /* justify-content: space-evenly; */
   align-items: center;
   background-color: w;
-color: green;
-padding: 0.5rem 10rem;
-height: 5rem;
+  color: green;
+  padding: 2rem 10rem 1rem 10rem;
+  height: 5rem;
 }
-.navbar i{
-  font-size :2.5rem;
-  color :rgb(99, 100, 102);
+
+.navbar .navlink {
+  display: inline-block;
+  position: relative;
+  font-size: 2.5rem;
+  color: rgb(99, 100, 102);
+  padding: 1rem 2rem 1rem 2rem;
+  border-bottom: 0.3rem solid transparent;
+
 }
-.quoraHeading{
+
+.navbar .navlink:hover {
+  background-color: rgb(247, 247, 247);
+  border-bottom: 0.3rem solid black;
+  color: gray;
+}
+
+.quoraHeading {
   font-size: 3rem;
-  color:rgb(185, 43, 39);
+  color: rgb(185, 43, 39);
 }
-.searchBox{
+
+.searchBox {
   border: 0.1rem solid rgb(222, 224, 225);
-  display:flex;
+  display: flex;
   /* justify-content:center; */
   align-items: center;
   height: 4rem;
-  border-radius:0.3rem ;
+  border-radius: 0.3rem;
   width: 30rem;
-  
+  margin: 0rem 2rem 0rem 2rem;
 }
+
 .searchInput {
   outline: none;
-border: none;
-width:100%;
+  border: none;
+  width: 100%;
 }
-.searchBox >i{
+
+.searchBox>i {
   font-size: 1.5rem;
   padding: 0.5rem;
 }
+
 .PremiumBtn {
   border: 0.1rem solid rgb(222, 224, 225);
   border-radius: 2rem;
@@ -55,41 +75,129 @@ width:100%;
   color: #636466;
   font-weight: bold;
 }
-.ProfileIcon {
-}
+
 .ProfileIcon img {
-  border-radius: 2rem;
-width: 3rem;
-height: 3rem;
+  border-radius: 1rem;
+  width: 2rem;
+  height: 2rem;
 }
-.addQuestionContainer{
+
+.ProfileIcon {
+  padding-top: 1rem;
+  /* background-color: antiquewhite; */
+}
+
+.addQuestionContainer {
   display: flex;
-  border-radius:3rem ;
+  border-radius: 3rem;
   /* justify-content: ; */
   height: 3rem;
   width: 14rem;
   background-color: aqua;
 }
-.addQuestionContainer .addBtn{
+
+.addQuestionContainer .addBtn {
   /* padding: 2rem; */
   color: white;
-  outline:none;
+  outline: none;
   border: none;
   border-radius: 3rem 0rem 0rem 3rem;
   background-color: rgb(185, 43, 39);
   height: 3rem;
   width: 80%;
-  
 }
-.addQuestionContainer .menuBtn{
+
+.addQuestionContainer .menuBtn {
   height: 3rem;
   border-radius: 0rem 3rem 3rem 0rem;
   background-color: rgb(185, 43, 39);
   width: 20%;
   border: none;
 }
-.addQuestionContainer .menuBtn >i{
-  color: white ;
+
+.addQuestionContainer .menuBtn>i {
+  color: white;
   font-size: 1.5rem;
   font-weight: bolder;
 }
+
+.addQuestionContainer .addBtn:hover,
+.addQuestionContainer .menuBtn:hover {
+  background-color: rgb(163, 39, 35);
+}
+
+/* navbar css end */
+
+/* side spacebar Css */
+.leftSideSection {
+  overflow: auto;
+  width: 16rem;
+}
+  .spaceContainer {
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem;
+  }
+
+  .createSpaceBtn {
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 5rem;
+    background-color: rgb(231, 231, 231);
+    border: none;
+  }
+
+
+  .spaceContainer li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+
+  }
+
+  .activeRedDot:hover {
+    background-color: rgb(231, 231, 231);
+  }
+
+  .spaceIcon {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+
+  }
+
+  .activeRedDot::before {
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    content: ' ';
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: red;
+    z-index: 1;
+    border: 0.3rem solid white;
+    border-radius: 50%;
+  }
+
+  .footerContainer {
+    width: 100%;
+  }
+
+  .footerContainer li {
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 0.8rem;
+  }
+
+  .footerContainer li a {
+    text-decoration: none;
+
+  }
+  hr{
+    height: 0.2rem;
+    background-color: silver;
+    margin: auto;
+    box-shadow: 2rem ;
+  }
