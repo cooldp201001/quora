@@ -1,13 +1,13 @@
 
 import './App.css'
 import Navbar from './components/Navbar'
-import Spaces from './components/Spaces'
+import Home from './pages/Home'
 function App() {
 
   return (
     <>
   <Navbar/>
- <Spaces/>
+  <Home/>
  </>
   )
 }

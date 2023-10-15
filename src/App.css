@@ -20,6 +20,7 @@ body{
   color: green;
   padding: 2rem 10rem 1rem 10rem;
   height: 5rem;
+  grid-area: navbar;
 }
 
 .navbar .navlink {
@@ -128,10 +129,12 @@ body{
 
 /* navbar css end */
 
-/* side spacebar Css */
+/*  left space style end  */
 .leftSideSection {
   overflow: auto;
   width: 16rem;
+ grid-column: 1/2;
+ /* grid-row: 1/2; */
 }
   .spaceContainer {
     font-size: 1.5rem;
@@ -148,7 +151,6 @@ body{
     border: none;
   }
 
-
   .spaceContainer li {
     position: relative;
     display: flex;
@@ -159,6 +161,7 @@ body{
 
   .activeRedDot:hover {
     background-color: rgb(231, 231, 231);
+    border-radius: 1rem;
   }
 
   .spaceIcon {
@@ -190,6 +193,9 @@ body{
     font-size: 1.3rem;
     padding: 0.8rem;
   }
+  .footerContainer li:hover{
+    text-decoration:underline ;
+  }
 
   .footerContainer li a {
     text-decoration: none;
@@ -201,3 +207,93 @@ body{
     margin: auto;
     box-shadow: 2rem ;
   }
+
+  /* left space style end */
+
+  /* write Post section */
+  .ProfileImg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+  
+  .WritePostBox{
+    border-radius: 0.6rem;
+    /* width: 30rem; */
+    height: 10rem;
+    grid-column:2/3;
+    background-color: white;
+  }
+  
+  .profileAndInputBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60%;
+    border-radius: 0.5rem 0.5rem 0 0 ;
+  }
+  .profileAndInputBox .postWriteInput{
+  outline: none;
+  border-radius: 2rem;
+  border: 0.2rem solid rgb(236, 236, 236);
+  height: 3.5rem;
+  width: 90%;
+  padding-left: 1rem;
+  background-color:rgb(240, 240, 240);
+}
+
+.PostBoxOptions{
+  display: grid;
+ grid-template-columns: auto auto auto;
+  height: 40%;
+  border-radius:0 0 0.5rem 0.5rem  ;
+}
+
+.postBoxOptionsLinks{
+  text-decoration: none;
+}
+.postBoxOptionsLinks {
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  transition: 0.2s ease-in-out;
+}
+.postBoxOptionsLinks:hover{
+  background-color: rgb(236, 236, 236);
+  border-radius: 3rem;
+}
+.postBoxOptionsLinks i{
+  padding: 0.5rem;
+}
+
+.answerBtn{
+position: relative;
+}
+.answerBtn::before,
+.answerBtn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0.2rem; /* Adjust the width of the lines as needed */
+    background-color:silver; /* Adjust the color of the lines as needed */
+}
+
+.answerBtn::before {
+    left: -0.6rem;
+}
+
+.answerBtn::after {
+    right: -0.6rem;
+}
+/* home  page style */
+
+.homePage{
+  display: grid;
+  grid-template-columns: 15% auto 30% ;
+  width: 80%;
+  margin: 2rem auto 0 auto;
+  background-color: gray;
+}
+

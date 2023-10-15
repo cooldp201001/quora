@@ -11,7 +11,8 @@ const Spaces = () => {
         <li className='activeRedDot' ><img className='spaceIcon' src="https://img.icons8.com/3d-fluency/94/pen.png" alt="pen"/>Writing</li>
         <li className='activeRedDot' ><img className='spaceIcon' src="https://img.icons8.com/3d-fluency/94/math.png" alt="math"/>Mathmatics</li>
         <li className='activeRedDot' ><img className='spaceIcon' src="https://img.icons8.com/3d-fluency/94/books.png" alt="books"/>Books</li>
-      
+        <br/>
+        <br/>
          <hr />
         </ol>
         <ol className='footerContainer'>
