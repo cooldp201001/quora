@@ -22,8 +22,6 @@ const Spaces = () => {
             <li><a href="">Privacy</a></li>
             <li><a href="">Acceptable Use</a></li>
             <li><a href="">Businesses</a></li>
-            <li><a href="">Press</a></li>
-            <li><a href="">Grievance Officer</a></li>
             <li><a href="">Your Ad Choices</a></li>
         </ol>
     
