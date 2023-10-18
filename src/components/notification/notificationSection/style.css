@@ -1,0 +1,21 @@
+ /* body{
+    background-color: black;
+ } */
+.middleNotificationSection{
+    background-color:antiquewhite;
+    grid-column: 2/3;
+    padding: 1rem;
+    
+}
+.headerBox{
+display: flex;
+justify-content: space-between;
+}
+.notificationHeading{
+    font-size: 2rem;
+}
+.settingAndMarkReadBox a{
+    text-decoration: none;
+   color: #626464;
+   font-size: 1.5rem;
+}

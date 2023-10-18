@@ -1,21 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav className='navbar' >
       <h2 className="quoraHeading">Quora</h2>
-      <a className='navlink' href=""><i className="fa-solid fa-house"></i></a>
-      <a className='navlink'  href=""><i className="fa-solid fa-rectangle-list"></i></a>
-      <a className='navlink'  href=""><i className="fa-solid fa-pen-to-square"></i></a>
-      <a className='navlink' href=""><i className="fa-solid fa-people-group"></i></a>
-      <a className='navlink' href=""><i className="fa-solid fa-bell"></i></a>
+      <Link className='navlink' to="/"><i className="fa-solid fa-house"></i></Link>
+      <Link className='navlink'  to=""><i className="fa-solid fa-rectangle-list"></i></Link>
+      <Link className='navlink'  to=""><i className="fa-solid fa-pen-to-square"></i></Link>
+      <Link className='navlink' to=""><i className="fa-solid fa-people-group"></i></Link>
+      <Link className='navlink' to="/notification"><i className="fa-solid fa-bell"></i></Link>
       <div className='searchBox'>
         <i className="fa-solid fa-magnifying-glass"></i>
         <input className='searchInput' type="text" placeholder='Search Quora' />
       </div> 
       <button className='PremiumBtn'>Try Quora+</button>
-      <a  href="" className=' navlink ProfileIcon'><img src="src\images\profile.png" alt="profile" /></a>
-       <a   className='navlink' href="" > <i className="fa-solid fa-globe "></i></a>
+      <Link  to="" className=' navlink ProfileIcon'><img src="src\images\profile.png" alt="profile" /></Link>
+       <Link   className='navlink' to="" > <i className="fa-solid fa-globe "></i></Link>
      
       <div className='addQuestionContainer'>
         <button  className='addBtn  '>Add question</button>

@@ -1,0 +1,7 @@
+.notificationPage{
+    margin: 5rem auto auto auto;
+    display: grid;
+     grid-template-columns: 15% auto 30%;
+     width: 80%;
+     padding-top: 3rem;
+}

@@ -33,7 +33,7 @@ const Posts = ({ post }) => {
 
         {/* cross sign */}
         <div >
-          <i class="fa-solid fa-xmark"></i>
+          <i className="fa-solid fa-xmark"></i>
         </div>
 
 
@@ -57,7 +57,7 @@ const Posts = ({ post }) => {
         </div>
   
 
-          <div><i class="fa-solid fa-ellipsis"></i></div>
+          <div><i className="fa-solid fa-ellipsis"></i></div>
         
 
 
