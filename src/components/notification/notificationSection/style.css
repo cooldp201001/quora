@@ -2,10 +2,10 @@
     background-color: black;
  } */
 .middleNotificationSection{
-    background-color:antiquewhite;
+    /* background-color:antiquewhite; */
     grid-column: 2/3;
     padding: 1rem;
-    
+
 }
 .headerBox{
 display: flex;
@@ -18,4 +18,41 @@ justify-content: space-between;
     text-decoration: none;
    color: #626464;
    font-size: 1.5rem;
+}
+.red{
+    height: 20rem;
+    width: 100%;
+    background-color: red;
+}
+.notificationBox{
+display: flex;
+margin: 1rem;
+padding: 1rem;
+justify-content: space-between;
+height: 8rem;
+}
+.notificationBox p{
+    font-size: 1.5rem;
+}
+.notificationProfileInfo{
+    display: flex;
+}
+.notificationprofileImgBox{
+    margin-right: 1rem;
+}
+.notificationprofileImgBox >img{
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+}
+.notificationInfo{
+    /* width: 30rem; */
+}
+.notificationEllipsis{
+
+}
+.notReadMessage{
+background-color: rgba(112, 128, 144, 0.1) !important;
+border: 0.1rem solid  rgba(112, 128, 144, 0.2);
 }

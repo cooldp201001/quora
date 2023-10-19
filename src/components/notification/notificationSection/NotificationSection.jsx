@@ -1,7 +1,8 @@
 import React from 'react'
 import './style.css'
 import notificationsData from '../../../data/NotificationData';
-import NotficationMessage from './NotficationMessage';
+import NotificationMsg from './NotificationMsg';
+
 const NotificationSection = () => {
     // console.log(notificationsData);
   return (
@@ -14,10 +15,13 @@ const NotificationSection = () => {
                 <a href=""> Settings</a>
             </div>
             </div>
-            {notificationsData.map((notfication)=>{
-                <NotficationMessage key={notfication.id} notification={notfication}/>
-            })
-            }
+            
+               {notificationsData.map((data) => {
+            return  <NotificationMsg key={data.id} data={data}/>
+              })}
+    
+      
+         
     </section>
   )
 }
