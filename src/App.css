@@ -32,7 +32,6 @@ background-color: rgb(241, 241, 241);
  top: 0;
  right: 0 ;
   align-items: center;
-  color: green;
   padding: 1rem 14rem 1rem 14rem;
   height: 5rem;
 background-color: white;
@@ -115,7 +114,6 @@ z-index: 1000;
   /* justify-content: ; */
   height: 3rem;
   width: 14rem;
-  background-color: aqua;
 }
 
 .addQuestionContainer .addBtn {

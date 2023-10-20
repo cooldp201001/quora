@@ -63,6 +63,7 @@ border-radius: 50%;
 /* justify-content: space-evenly; */
 }
 .likedAndDislikeBtnBox{
+    display: flex;
      height: 3.3rem;
     width: 18rem;
 

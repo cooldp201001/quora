@@ -1,0 +1,127 @@
+.Tipsbox {
+    margin: 2rem;
+    /* width: 100%; */
+    background-color: rgba(85, 85, 255, 0.1);
+    /* height: 8rem; */
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: rgb(85, 85, 255);
+    border-radius: 0.5rem;
+}
+
+.TipsList {
+    font-size: 1.5rem;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.addQuestionLowerbox {
+    margin-left: 2rem;
+    display: flex;
+}
+
+.profileBox {
+    display: flex;
+    align-items: center;
+    width: 4.5rem;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.addQuestionProfileImgBox {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.addQuestionProfileImgBox img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.publicBtnBox {
+    position: relative;
+}
+
+.publicBtnBox .publicBtn {
+    border: 0.1rem solid silver;
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.publicBtnDropDown {
+    display: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    width: 25rem;
+    left: -15rem;
+    top: 5rem;
+    height: 15rem;
+    background-color: white ;
+    border: 0.1rem solid rgb(0, 0, 0,0.2);
+    position: absolute;
+    z-index: 1000;
+}
+.showElm{
+    display: block!important ;
+}
+.publicBtnDropDown::before {
+    content: '';
+    position: absolute;
+    border: 1rem solid transparent;
+    top: -2rem;
+    border-bottom: 1rem solid black;
+    left: 80%;
+    transform: translateX(-50%);
+}
+.publicTag,.limitedTag{
+    margin-bottom: 0.5rem;
+
+}
+.limitedTag:hover , .publicTag:hover{
+text-decoration: underline;
+}
+
+.QuestionWriteInputBox{
+    margin: 2rem;
+    /* background-color: aquamarine; */
+}
+.QuestionWriteInputElm{
+    font-size: 1.7rem;
+   height: 4rem;
+   border: none;
+   background-color: white;
+   width: 100%;
+   outline: none;
+   /* padding: 1rem; */
+   border-bottom: 0.2rem solid skyblue;
+}
+.cancelAndAddQuestionBtnBox{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 6rem;
+    border-top: 0.2rem solid rgb(0, 0, 0,0.5);
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0 1rem 0;
+}
+.cancelBtn{
+    width: 5rem;
+    border-radius: 2rem;
+    border: none;
+    background: white;
+    font-size: 1.5rem;
+}
+
+.AddQuestionBtn{
+    border: none;
+    color: white;
+    margin: 0 2rem 0 2rem;
+    background: skyblue;
+    width: 12rem;
+    border-radius: 2rem;
+}

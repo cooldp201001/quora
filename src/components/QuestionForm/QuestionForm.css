@@ -1,0 +1,61 @@
+
+.QuestionDialogBox{
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    width: 72rem;
+    transform: translate(50%,-50%);
+    height: 48rem;
+    background-color: white;
+    border-radius: 1rem;
+.closeBtn{
+    font-size: 2rem;
+    font-weight: bolder;
+    border: none;
+    margin: 1rem;
+    background-color: white;
+}
+.AddQuestionAndCreatePostBtnBox{
+    display: flex;
+    height: 4.3rem;
+    border-bottom: 0.3rem solid white; 
+    padding: 0.5rem;
+}
+
+.addQuestionBtnBox ,.createPostBtnBox {
+    width: 50%;
+    height: 4.3rem;
+    background-color: white;
+    border-bottom: 0.3rem solid red;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0.2rem;
+    
+}
+
+.addQuestionBtn, .createPostBtn{
+}
+.addQuestionBtnBox:hover{
+    
+    border-bottom: 0.5rem solid skyblue;
+    background-color: rgb(236, 236, 236);
+}
+.createPostBtnBox:hover{
+    
+    background-color: rgb(236, 236, 236);
+    border-bottom: 0.5rem solid skyblue;
+}
+
+.createPostBtn,.addQuestionBtn{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    height:4rem;
+    background-color: transparent;
+}
+/* .AddQuestionAndCreatePostBtnBox >button:hover{
+    height: ;
+    background-color:antiquewhite;
+    border-bottom: 0.2rem solid skyblue;
+} */

@@ -1,7 +1,14 @@
 import React from 'react'
+ import { useState } from 'react'
 import { Link } from 'react-router-dom'
-
+import QuestionForm from './QuestionForm/QuestionForm'
 const Navbar = () => {
+    const [isDisplayed, setIsDisplayed] = useState(false);
+    
+    const handleButtonClick = () => {
+      setIsDisplayed(!isDisplayed);
+    };
+  
   return (
     <nav className='navbar' >
       <h2 className="quoraHeading">Quora</h2>
@@ -17,10 +24,14 @@ const Navbar = () => {
       <button className='PremiumBtn'>Try Quora+</button>
       <Link  to="" className=' navlink ProfileIcon'><img src="src\images\profile.png" alt="profile" /></Link>
        <Link   className='navlink' to="" > <i className="fa-solid fa-globe "></i></Link>
-     
-      <div className='addQuestionContainer'>
-        <button  className='addBtn  '>Add question</button>
+        
+      <div  className='addQuestionContainer'>
+        <button  className='addBtn ' onClick={handleButtonClick} >Add question</button>
         <button className='menuBtn ' ><i className="fa-solid fa-chevron-down"></i></button>
+        {/* {isDisplayed && QuestionFor}
+         */}
+        { isDisplayed && <QuestionForm status={setIsDisplayed} />}
+
       </div>
     </nav>
   )
