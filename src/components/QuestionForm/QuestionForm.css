@@ -8,6 +8,17 @@
     height: 48rem;
     background-color: white;
     border-radius: 1rem;
+    z-index:1000;
+}
+.questionBoxContainer{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    left: 0rem;
+
+
+}
 .closeBtn{
     font-size: 2rem;
     font-weight: bolder;

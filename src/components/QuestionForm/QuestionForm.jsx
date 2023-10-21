@@ -2,12 +2,14 @@ import React from 'react'
 import './QuestionForm.css'
 import AddQuestion from './AddQuestion/AddQuestion'
 const QuestionForm = ({status}) => {
-  console.log(status);
  const change=()=>{
   status()
   //  console.log(status);
  }
   return (
+     <div className="questionBoxContainer">
+
+    
     <div className='QuestionDialogBox'>
 
       <button onClick={change} className='closeBtn'><i className="fa-solid fa-xmark"></i></button>
@@ -23,6 +25,7 @@ const QuestionForm = ({status}) => {
       </div>
           <AddQuestion/>
 
+      </div>
       </div>
   )
 }

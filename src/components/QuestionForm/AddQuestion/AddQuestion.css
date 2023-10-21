@@ -71,11 +71,15 @@
 .publicBtnDropDown::before {
     content: '';
     position: absolute;
-    border: 1rem solid transparent;
-    top: -2rem;
-    border-bottom: 1rem solid black;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    top: -1rem;
+    border: 0.1rem solid black;
     left: 80%;
-    transform: translateX(-50%);
+    transform: rotate(45deg);
+    border-bottom: none;
+    border-right: none;
 }
 .publicTag,.limitedTag{
     margin-bottom: 0.5rem;
