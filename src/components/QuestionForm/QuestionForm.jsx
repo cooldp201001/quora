@@ -1,11 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './QuestionForm.css'
 import AddQuestion from './AddQuestion/AddQuestion'
+import CreatePost from './CreatePost/CreatePost'
 const QuestionForm = ({status}) => {
- const change=()=>{
+ const change=()=>{   
   status()
   //  console.log(status);
  }
+
+  const[createPostCom,setCreatePostCom] = useState(false)
+  const [addQuescom,setAddQuesCom] = useState(true)
+  const showCreatePostComp =()=>{
+    if(addQuescom)
+    setAddQuesCom(!addQuescom)
+   if(!createPostCom)
+    setCreatePostCom(!createPostCom)
+    
+    
+  }
+  const showAddQuesCom =()=>{
+    if(createPostCom)
+    setCreatePostCom(!createPostCom)
+     if(!addQuescom)
+    setAddQuesCom(!addQuescom)
+  }
   return (
      <div className="questionBoxContainer">
 
@@ -15,15 +33,16 @@ const QuestionForm = ({status}) => {
       <button onClick={change} className='closeBtn'><i className="fa-solid fa-xmark"></i></button>
       <div className="AddQuestionAndCreatePostBtnBox">
 
-        <div className='addQuestionBtnBox'>
-        <button className='addQuestionBtn'>Add Question</button
+        <div className= {`addQuestionBtnBox ${addQuescom?"activeBox":""}` } >
+        <button className="addQuestionBtn" onClick={()=>showAddQuesCom()}  >Add Question</button
         ></div>
          
-         <div className='createPostBtnBox' > 
-          <button className='createPostBtn'>create Post</button>
+         <div className= {`createPostBtnBox ${createPostCom?"activeBox":""}` } > 
+          <button className='createPostBtn' onClick={()=>showCreatePostComp()}>create Post</button>
           </div>
       </div>
-          <AddQuestion/>
+           {  addQuescom &&<AddQuestion/>} 
+         { createPostCom&&<  CreatePost/>} 
 
       </div>
       </div>

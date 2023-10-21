@@ -1,3 +1,6 @@
+/* .addQuestionBox{
+    display: ;
+} */
 .Tipsbox {
     margin: 2rem;
     /* width: 100%; */
@@ -101,7 +104,7 @@ text-decoration: underline;
    width: 100%;
    outline: none;
    /* padding: 1rem; */
-   border-bottom: 0.2rem solid skyblue;
+   border-bottom: 0.2rem solid silver;
 }
 .cancelAndAddQuestionBtnBox{
     display: flex;

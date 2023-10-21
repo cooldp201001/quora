@@ -23,7 +23,7 @@ object-fit: cover;
 border-radius: 50%;
 }
  .fa-xmark{
-    margin-right: 2.5rem;
+  font-size: 2rem;
  }
 .profileTextInfo{
     display: flex;

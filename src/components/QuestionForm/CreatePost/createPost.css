@@ -1,0 +1,94 @@
+.createPostcontainer {
+    margin: 0.5rem;
+    /* position: relative; */
+    background-color: white;
+    height: 37rem;
+}
+
+.profileinfoWrapper {
+    margin: 2rem 2rem 1rem 2rem;
+    display: flex;
+
+}
+
+.profileNameHeading {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.CreatePostProfileImgBox {
+    background-color: red;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.CreatePostProfileImg {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: contain;
+
+}
+
+.ChooseCredentialBtn {
+    border: 0.1rem solid silver;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: bolder;
+    margin: 0.5rem;
+
+}
+
+.fa-greater-than {
+    margin-left: 0.5rem;
+}
+
+.postInputBox {
+    margin-left: 2rem;
+}
+
+.postInputElm{
+    all: unset;
+    /* background-color: red; */
+    height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+
+}
+.bottomBox{
+    background-color: red;
+    margin: 0 1rem 0 1rem;
+    position: absolute;
+    border-top: 0.2rem solid silver;
+    bottom: 0rem;
+    background-color: white;
+    width: 96%;
+    padding: 0 1rem 0 1rem
+}
+.galeryAndPostBtnContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+}
+.fontAndGaleryBox{
+    display: flex;
+    font-size:1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 7rem;
+}
+.postBtn{
+    /* all: unset; */
+    width: 7rem;
+    border-radius: 2rem;
+    height: 4rem;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    outline: none;
+    background-color: rgb(49, 49, 255);   
+}
+

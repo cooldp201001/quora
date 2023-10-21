@@ -3,9 +3,9 @@
     position: fixed;
     top: 50%;
     right: 50%;
-    width: 72rem;
+    width: 72.8rem;
     transform: translate(50%,-50%);
-    height: 48rem;
+    height: 49rem;
     background-color: white;
     border-radius: 1rem;
     z-index:1000;
@@ -16,7 +16,6 @@
     height: 100vh;
     background-color: rgba(0,0,0,0.7);
     left: 0rem;
-
 
 }
 .closeBtn{
@@ -37,7 +36,7 @@
     width: 50%;
     height: 4.3rem;
     background-color: white;
-    border-bottom: 0.3rem solid red;
+    border-bottom: 0.3rem solid silver;
     transition: all 0.2s ease-in-out;
     border-radius: 0.2rem;
     
@@ -45,16 +44,11 @@
 
 .addQuestionBtn, .createPostBtn{
 }
-.addQuestionBtnBox:hover{
-    
-    border-bottom: 0.5rem solid skyblue;
+.activeBox{
+    border-bottom: 0.4rem solid #2E69FF;
     background-color: rgb(236, 236, 236);
 }
-.createPostBtnBox:hover{
-    
-    background-color: rgb(236, 236, 236);
-    border-bottom: 0.5rem solid skyblue;
-}
+
 
 .createPostBtn,.addQuestionBtn{
     width: 100%;
@@ -65,8 +59,3 @@
     height:4rem;
     background-color: transparent;
 }
-/* .AddQuestionAndCreatePostBtnBox >button:hover{
-    height: ;
-    background-color:antiquewhite;
-    border-bottom: 0.2rem solid skyblue;
-} */
