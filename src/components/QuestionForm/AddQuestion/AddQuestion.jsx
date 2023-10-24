@@ -28,9 +28,7 @@ const AddQuestion = () => {
           <button className='publicBtn' onClick={change} ><i className="fa-solid fa-user-group"></i> Public <i className="fa-solid fa-chevron-down"></i></button>
            
            <div className={`publicBtnDropDown  ${showDropDown?"showElm":""}`}>
-            <div>
-              
-            </div>
+           
            <p className='publicTag'><b>Public</b> <br />
 Others will see your identity alongside this question on your profile and in their feeds.</p>
 

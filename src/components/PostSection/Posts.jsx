@@ -1,20 +1,11 @@
 import React from 'react'
-import '../components/styles/Posts.css'
+import './Posts.css'
 const Posts = ({ post }) => {
   // console.log(post);
   const { accountName, profileImage, postTitle, postText, postImage, postDate,
     designation, likes, comments, share, isFollowing, responses, tags } = post;
   return (
-    // <div className="post">
-    //   <h3>{postTitle}</h3>
-    //   <p>{postText}</p>
-    //   <img src={images} alt="" />
-    //   <p>Posted by: {accountName}</p>
-    //   <p>Post Date: {postDate}</p>
-    //   <p>Likes: {likes}</p>
-    //   <p>Comments: {comments}</p>
-    //   <p>Tags: {tags.join(',')}</p>
-    // </div>
+  
 
     <div className='post' >
 

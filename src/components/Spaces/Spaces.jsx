@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Spaces.css'
 const Spaces = () => {
   return (
 <section className='leftSideSection'>
@@ -22,7 +22,7 @@ const Spaces = () => {
             <li><a href="">Privacy</a></li>
             <li><a href="">Acceptable Use</a></li>
             <li><a href="">Businesses</a></li>
-            <li><a href="">Your Ad Choices</a></li>
+
         </ol>
     
 </section>

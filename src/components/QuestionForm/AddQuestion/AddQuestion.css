@@ -3,9 +3,7 @@
 } */
 .Tipsbox {
     margin: 2rem;
-    /* width: 100%; */
     background-color: rgba(85, 85, 255, 0.1);
-    /* height: 8rem; */
     padding: 2rem;
     font-size: 1.2rem;
     color: rgb(85, 85, 255);
@@ -49,9 +47,11 @@
 
 .publicBtnBox .publicBtn {
     border: 0.1rem solid silver;
+    font-size: 1.5rem;
     width: 10rem;
     height: 3.5rem;
     border-radius: 2rem;
+    color:#636466;
     padding: 0.5rem;
 }
 
@@ -78,7 +78,7 @@
     height: 2rem;
     background-color: white;
     top: -1rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid rgb(0, 0, 0,0.2);
     left: 80%;
     transform: rotate(45deg);
     border-bottom: none;
@@ -94,7 +94,6 @@ text-decoration: underline;
 
 .QuestionWriteInputBox{
     margin: 2rem;
-    /* background-color: aquamarine; */
 }
 .QuestionWriteInputElm{
     font-size: 1.7rem;
@@ -103,7 +102,7 @@ text-decoration: underline;
    background-color: white;
    width: 100%;
    outline: none;
-   /* padding: 1rem; */
+
    border-bottom: 0.2rem solid silver;
 }
 .cancelAndAddQuestionBtnBox{
@@ -126,6 +125,7 @@ text-decoration: underline;
 
 .AddQuestionBtn{
     border: none;
+    font-size: 1.5rem;
     color: white;
     margin: 0 2rem 0 2rem;
     background: skyblue;

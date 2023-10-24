@@ -4,6 +4,23 @@
     background-color: white;
     height: 37rem;
 }
+.everyoneBtn{
+    all: unset;
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    border-radius: 2rem;
+    font-size: 1.5rem ;
+    padding: 0.5rem;
+    transition: all 0.2s ease-in-out;
+
+}
+.everyoneBtn:hover{
+    background-color: rgb(192, 192, 192,0.6);
+   
+}
 
 .profileinfoWrapper {
     margin: 2rem 2rem 1rem 2rem;
@@ -12,7 +29,7 @@
 }
 
 .profileNameHeading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 1rem;
 }
 
@@ -37,8 +54,10 @@
     height: 3rem;
     border-radius: 2rem;
     background-color: white;
+    color: #636466;
     font-weight: bolder;
     margin: 0.5rem;
+    font-size: 1.2rem;
 
 }
 
@@ -83,6 +102,7 @@
 .postBtn{
     /* all: unset; */
     width: 7rem;
+    font-size: 1.5rem;
     border-radius: 2rem;
     height: 4rem;
     color: white;

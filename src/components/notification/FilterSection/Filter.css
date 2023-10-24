@@ -1,32 +1,39 @@
-.leftFilterSection{
+.leftFilterSection {
     grid-column: 1/2;
     padding-top: 1rem;
 }
-.filterHeading{
+
+.filterHeading {
     margin: 0 0 1rem 1rem;
     font-size: 2rem;
 }
-.filterList{
+
+.filterList {
     list-style: none;
     font-size: 1.5rem;
     margin-top: 0.5rem;
 }
-.filterList li{
+
+.filterList li {
     border-radius: 0.5rem;
     padding: 1rem;
-    margin-top:0.5rem ;
+    margin-top: 0.5rem;
 }
-.filterList li:not(:first-child):hover{
+
+.filterList li:not(:first-child):hover {
     background-color: rgb(231, 231, 231);
 }
-.filterList li a{
+
+.filterList li a {
     text-decoration: none;
     color: #636466;
 }
-.activeLink{
-    background-color: rgba(255, 137, 137,0.3);
+
+.activeLink {
+    background-color: rgba(255, 137, 137, 0.3);
     font-weight: bolder;
 }
-.activeLink >a{
+
+.activeLink>a {
     color: rgb(177, 18, 50) !important;
 }

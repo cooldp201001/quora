@@ -1,5 +1,5 @@
 import React from 'react'
-
+//  import './Posts.css'
 const WritePost = () => {
   return (
     <section className='WritePostBox' >

@@ -1,0 +1,115 @@
+
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-evenly;
+  top: 0;
+  align-items: center;
+  padding: 1rem 14rem 1rem 14rem;
+  height: 5rem;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0.1rem 0.2rem 0.5rem rgba(0, 0, 0, 0.1)
+}
+
+.navbar .navlink {
+  font-size: 2.5rem;
+  color: rgb(99, 100, 102);
+  padding: 1rem 2rem 0.7rem 2rem;
+  border-bottom: 0.3rem solid transparent;
+
+}
+
+.navbar .navlink:hover {
+  background-color: rgb(247, 247, 247);
+  border-bottom: 0.3rem solid black;
+  color: gray;
+}
+
+.quoraHeading {
+  font-size: 3rem;
+  color: rgb(185, 43, 39);
+}
+
+.searchBox {
+  border: 0.1rem solid rgb(222, 224, 225);
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  border-radius: 0.3rem;
+  width: 30rem;
+  margin: 0rem 2rem 0rem 2rem;
+  background-color: rgb(241, 241, 241);
+}
+
+.searchInput {
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  height: 3rem;
+  font-size: 1.5rem;
+
+}
+
+.searchBox>i {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.PremiumBtn {
+  border: 0.1rem solid rgb(222, 224, 225);
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  background-color: white;
+  height: 3rem;
+  width: 11rem;
+  color: #636466;
+}
+
+.ProfileIcon img {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+
+
+.addQuestionContainer {
+  display: flex;
+  border-radius: 3rem;
+  height: 3rem;
+  width: 14rem;
+}
+
+.addQuestionContainer .addBtn {
+  font-size: 1.2rem;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3rem 0rem 0rem 3rem;
+  background-color: rgb(185, 43, 39);
+  height: 3rem;
+  width: 80%;
+}
+
+.addQuestionContainer .menuBtn {
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: 0rem 3rem 3rem 0rem;
+  background-color: rgb(185, 43, 39);
+  width: 20%;
+  border: none;
+}
+
+.addQuestionContainer .menuBtn>i {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.addQuestionContainer .addBtn:hover,
+.addQuestionContainer .menuBtn:hover {
+  background-color: rgb(163, 39, 35);
+}

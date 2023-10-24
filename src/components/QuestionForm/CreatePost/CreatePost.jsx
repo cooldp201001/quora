@@ -3,13 +3,13 @@ import './createPost.css'
 const CreatePost = () => {
   return (
     <div className='createPostcontainer'>
-
+          <button className='everyoneBtn' ><i class="fa-solid fa-globe"></i> Everyone <i class="fa-solid fa-angle-down"></i></button>
       <div className="profileinfoWrapper">
         <div className='CreatePostProfileImgBox'>
           <img src="src\images\profile.png" className='CreatePostProfileImg' alt="profileImg" />
           </div>
           <div className='ProfileNameandChooseCredentialBtnBox'>
-            <h1 className='profileNameHeading' >Kuldeep Patel</h1>
+            <h3 className='profileNameHeading' >Kuldeep Patel</h3>
             <button className='ChooseCredentialBtn'>Choose credential<i className="fa-solid fa-greater-than"></i></button>
           </div>
         

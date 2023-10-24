@@ -1,0 +1,37 @@
+.homePage {
+    display: grid;
+    grid-template-columns: 16% auto 30%;
+    width: 80%;
+    column-gap: 0.5rem;
+    margin: 7rem auto 0 auto;
+   
+  }
+  @media (width<=768px) {
+    html{
+      font-size: 5.5px;
+    }
+  
+    .homePage {
+      grid-template-columns: 16% auto;
+  }
+
+  }
+  @media( width <=425px){
+    html{
+      font-size: 3px;
+    }
+    .homePage{
+      width: 95%;
+    }
+
+  }
+  @media( width <=320px){
+    html{
+      font-size: 2px;
+    }
+    .homePage{
+      width: 95%;
+    }
+
+  }
+  
