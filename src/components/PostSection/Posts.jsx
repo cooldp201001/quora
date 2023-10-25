@@ -1,11 +1,11 @@
 import React from 'react'
 import './Posts.css'
 const Posts = ({ post }) => {
-  // console.log(post);
+
   const { accountName, profileImage, postTitle, postText, postImage, postDate,
     designation, likes, comments, share, isFollowing, responses, tags } = post;
   return (
-  
+
 
     <div className='post' >
 
@@ -46,12 +46,8 @@ const Posts = ({ post }) => {
             <button><i className="fa-solid fa-share"></i>  {share}</button>
           </div>
         </div>
-  
 
-          <div><i className="fa-solid fa-ellipsis"></i></div>
-        
-
-
+        <div><i className="fa-solid fa-ellipsis"></i></div>
       </div>
     </div>
   );
